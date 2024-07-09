@@ -9,7 +9,4 @@ My Todo is a simple and elegant Android app that helps you manage your tasks. Yo
 - Clean Architecture: The app follows the principles of clean architecture, which separates the code into different layers of responsibility and abstraction. The app has three main layers: presentation, domain and data.
 - MVVM: The app uses the Model-View-ViewModel (MVVM) pattern to communicate between the layers. MVVM allows the UI to be reactive and consistent with the data, while keeping the logic and state in the view model.
 
-## Screenshots
 
-![Screenshot 1](screenshot1.png)
-![Screenshot 2](screenshot2.png)

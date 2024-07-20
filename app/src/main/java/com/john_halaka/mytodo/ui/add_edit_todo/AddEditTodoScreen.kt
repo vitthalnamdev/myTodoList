@@ -36,10 +36,10 @@ fun AddEditTodoScreen(
             when (event) {
                 is UiEvent.PopBackStack -> onPopBackStack()
                 is UiEvent.ShowSnackBar -> {
-                    scaffoldState.snackbarHostState.showSnackbar(
-                        message = event.message,
-                        actionLabel = event.action
-                    )
+                        scaffoldState.snackbarHostState.showSnackbar(
+                            message = event.message,
+                            actionLabel = event.action
+                        )
                 }
 
                 else -> Unit
